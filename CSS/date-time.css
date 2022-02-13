@@ -1,0 +1,26 @@
+.date-time {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin-bottom: 60px;
+}
+.date {
+  display: flex;
+}
+.date span {
+  padding-right: 5px;
+}
+.date__middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+@media (max-width: 425px) {
+  .date-time {
+    font-size: 32px;
+  }
+  .date__middle {
+    font-size: 15px;
+  }
+}
